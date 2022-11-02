@@ -44,4 +44,11 @@ func main() {
 	fmt.Println(numberCopy)
 	fmt.Println(slice4)
 
+	array := [...]int{1, 2, 3, 4, 5, 6, 7}
+	slice5 := array[7:7]
+
+	fmt.Println(slice5)
+	fmt.Println(len(slice5))
+	fmt.Println(cap(slice5))
+
 }

@@ -29,8 +29,8 @@ func main() {
 	st1 := &Student{name: "kuro"}
 	// name := st1.getName()
 	st1.changeName()
-	fmt.Println(st1.name)
+	fmt.Println("value receiver: ", st1.name)
 
 	st1.changeName2()
-	fmt.Println(st1.name)
+	fmt.Println("pointer receiver: ", st1.name)
 }

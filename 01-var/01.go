@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
 	var name string = "name"
@@ -14,6 +17,7 @@ func main() {
 	)
 	name1 = "name1"
 	age1 = 22
+
 	fmt.Println(name1)
 	fmt.Println(age1)
 
@@ -27,4 +31,11 @@ func main() {
 	name3, age3 := "name3", 22
 	fmt.Println(name3)
 	fmt.Println(age3)
+
+	var name4 string = "kuro"
+	fmt.Println(name4)
+
+	name4 = strconv.Itoa(123)
+
+	fmt.Println(name4)
 }

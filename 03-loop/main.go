@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// fnFro()
-	// fnForToWhile()
+	fnForToWhile()
 	result := sumTwoNumber(1, 2)
 	fmt.Println(result)
 }

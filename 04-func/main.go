@@ -37,3 +37,7 @@ func sumFor2Number(a int, b int) (number1 int, number2 int, isSum bool, result i
 	}
 	return a, b, isSum, result
 }
+
+func addTwoNumber(a int, b float32) float32 {
+	return float32(a) + b
+}

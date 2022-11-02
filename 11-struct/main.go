@@ -35,31 +35,65 @@ func main() {
 	// fmt.Println(poiter.id)
 	// fmt.Println(poiter.name)
 
-	st3 := NoName{4, "5"}
-	fmt.Println(st3)
-
-	st4 := Student{
-		id:   5,
-		name: "okok",
+	st1 := Student{
+		id:   1,
+		name: "kuro",
 		info: StudentInfo{
-			class: "A2",
-			email: "admin@gmail.com",
-			age:   22,
+			class: "IT",
+			email: "kysuvitinh",
+			age:   24,
 		},
 	}
-	st5 := Student{
-		id:   5,
-		name: "okok",
+
+	st2 := Student{
+		id:   1,
+		name: "kuro",
 		info: StudentInfo{
-			class: "A2",
-			email: "admin@gmail.com",
-			age:   22,
+			class: "IT",
+			email: "kysuvitinh",
+			age:   24,
 		},
 	}
-	fmt.Println(st4)
-	fmt.Println(st4.info.class)
-	fmt.Println(st4 == st5)
+	fmt.Println(st1)
+	b := &Student{
+		id:   123,
+		name: "455",
+	}
+	b.id = 5
+	fmt.Println((*b).name)
 
-	var st6 Student
-	fmt.Println(st6)
+	if st1 == st2 {
+		fmt.Println("===")
+	} else {
+		fmt.Println("!==")
+	}
+
+	// st3 := NoName{4, "5"}
+	// fmt.Println(st3)
+
+	// st4 := Student{
+	// 	id:   5,
+	// 	name: "okok",
+	// 	info: StudentInfo{
+	// 		class: "A2",
+	// 		email: "admin@gmail.com",
+	// 		age:   22,
+	// 	},
+	// }
+	// st5 := Student{
+	// 	id:   5,
+	// 	name: "okok",
+	// 	info: StudentInfo{
+	// 		class: "A2",
+	// 		email: "admin@gmail.com",
+	// 		age:   22,
+	// 	},
+	// }
+	// fmt.Println(st4)
+	// fmt.Println(st4.info.class)
+	// fmt.Println(st4 == st5)
+
+	// var st6 Student
+	// fmt.Println(st6)
+
 }

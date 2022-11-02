@@ -18,8 +18,9 @@ func main() {
 	// }
 
 	// constructor
+	a := "123"
 	myMap2 := map[string]int{
-		"key-1": 1,
+		a:       1,
 		"key-2": 2,
 		"key-3": 3,
 	}
